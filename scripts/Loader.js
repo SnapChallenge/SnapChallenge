@@ -27,6 +27,7 @@ window.addEventListener('load', function () {
 				'preload!scripts/Particles.js',
 				'preload!scripts/Storage.js',
 				'preload!scripts/Controller.js',
+				'preload!scripts/Camera.js',
 				'preload!scripts/Game.js'
             ],
             complete: function () {
@@ -35,7 +36,6 @@ window.addEventListener('load', function () {
         }
     ]);
 }, false);
-
 //
 // Extend yepnope with our own 'preload' prefix that...
 // * Tracks how many have been requested to load
@@ -68,6 +68,18 @@ yepnope.addPrefix('preload', function (resource) {
             GAME.Controller.initialize();
         }
     };
+
+    document.getElementById('start').addEventListener('click', function(){
+        GAME.camera.start();
+    });
+
+    document.getElementById('capture').addEventListener('click', function() {
+    	GAME.camera.capture();
+    });
+
+    document.getElementById('send').addEventListener('click', function() {
+        GAME.camera.send();
+    });
 
     return resource;
 });
