@@ -614,7 +614,7 @@ GAME.screens['game'] = (function () {
     function render(elapsedTime) {
         //GAME.graphics.drawRect(background);
 
-        //GAME.graphics.drawText(timeText);
+        GAME.graphics.drawText(timeText);
         //GAME.graphics.drawText(movesText);
 
         //GAME.graphics.drawRect(gameBoard);
