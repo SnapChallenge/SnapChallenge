@@ -1,6 +1,10 @@
 {
-    "name": "SnapChallenge",
-    "dependencies": {
-        "hapi": "^11.1.0"
-    }
+  "name": "SnapChallenge",
+  "main": "lib/server",
+  "dependencies": {
+    "hapi": "^11.1.0",
+    "hapi-auth-cookie": "^3.1.0",
+    "inert": "^3.2.0",
+    "mongodb": "^2.0.47"
+  }
 }
