@@ -18,24 +18,18 @@ User can choose friend to send image to
         User clicks "Send" to send it to the user
 
 Technologies used:
-server: node.js
+server: node.js (hapi)
 camera: html5 camera api
 game: html5 canvas
-authentication: undecided
+authentication: hapi-auth-cookie
 
 Databases:
 Users:
-    Username
-    Password
     Email address
+    Password
     List of friends
-    Token
 Snaps:
     Sender
-    Target
-    Time limit
+    Recipient
+    Duration
     Image
-
-
-
-
