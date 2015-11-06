@@ -1,6 +1,13 @@
 {
   "name": "SnapChallenge",
+  "description": "picture messaging with a twist",
   "main": "lib/server",
+  "contributors": [
+      "Jacob Butterfield (https://github.com/butterfieldj)",
+      "Shaheen Page (https://github.com/shaheenp)",
+      "Zachary Cole (https://github.com/clackary)"
+  ],
+  "repository": "https://github.com/SnapChallenge/SnapChallenge",
   "dependencies": {
     "hapi": "^11.1.0",
     "hapi-auth-cookie": "^3.1.0",
