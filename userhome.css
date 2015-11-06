@@ -1,9 +1,0 @@
-#friendPane {position: absolute; top: 80px; left: 5px; width: 200px;
-        font-family: Arial, Helvetica, sans-serif}
-
-#container {position: absolute; top: 80px; left: 210px; 
-            width: 500px; height: 500;
-            font-family: Arial, Helvetica, sans-serif}
-
-#snapFrame {width: 500px; height: 450;
-            border: 2px solid;}
