@@ -23,3 +23,19 @@ camera: html5 camera api
 game: html5 canvas
 authentication: undecided
 
+Databases:
+Users:
+    Username
+    Password
+    Email address
+    List of friends
+    Token
+Snaps:
+    Sender
+    Target
+    Time limit
+    Image
+
+
+
+
