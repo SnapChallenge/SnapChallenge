@@ -1,6 +1,7 @@
 {
   "name": "SnapChallenge",
   "description": "picture messaging with a twist",
+  "version": "0.1.0",
   "main": "lib/server",
   "contributors": [
     "Jacob Butterfield (https://github.com/butterfieldj)",
@@ -8,6 +9,10 @@
     "Zachary Cole (https://github.com/clackary)"
   ],
   "repository": "https://github.com/SnapChallenge/SnapChallenge",
+  "os": [
+      "darwin",
+      "linux"
+  ],
   "dependencies": {
     "boom": "^3.0.0",
     "hapi": "^11.1.0",
