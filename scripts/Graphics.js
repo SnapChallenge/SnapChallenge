@@ -6,7 +6,8 @@ GAME.graphics = (function () {
 
     // Draws an image with the center at x, y
     function drawImage(spec) {
-        context.drawImage(spec.image, (spec.x - (spec.width / 2)), (spec.y - (spec.height / 2)), spec.width, spec.height);
+    	console.log(spec);
+        //context.drawImage(spec.image, (spec.x - (spec.width / 2)), (spec.y - (spec.height / 2)), spec.width, spec.height);
     }
 
     // Draws an alternate image (used for selected items in a menu) with the center at x, y
