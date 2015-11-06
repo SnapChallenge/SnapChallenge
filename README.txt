@@ -17,19 +17,20 @@ User can choose friend to send image to
         Timer set displays (drop down?)
         User clicks "Send" to send it to the user
 
-Technologies used:
-server: node.js (hapi)
-camera: html5 camera api
-game: html5 canvas
-authentication: hapi-auth-cookie
+Technologies:
+    server: node.js (hapi)
+    database: mongodb
+    camera: html5 camera api
+    game: html5 canvas
+    authentication: hapi-auth-cookie
 
-Databases:
-Users:
-    Email address
-    Password
-    List of friends
-Snaps:
-    Sender
-    Recipient
-    Duration
-    Image
+Collections:
+    Users:
+        Email address
+        Password
+        List of friends
+    Snaps:
+        Sender
+        Recipient
+        Duration
+        Image
