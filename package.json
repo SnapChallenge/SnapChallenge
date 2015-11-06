@@ -1,0 +1,6 @@
+{
+    "name": "SnapChallenge",
+    "dependencies": {
+        "hapi": "^11.1.0"
+    }
+}
