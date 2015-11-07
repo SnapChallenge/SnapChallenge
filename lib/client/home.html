@@ -34,27 +34,26 @@
                 </div>
             </div>
         </nav>
-        <div id="userTitle">
-            <h2>User Home</h2>
-        </div>
         <div id="friendPane" class="nav nav-sidebar">
             <h4>Friends</h4>
         </div>
         <div id="container" class="container">
-            <h4>SnapFrame</h4>
             <video id="video" width="400" height="400" autoplay>
                 Browser does not support video, cannot load.
             </video>
             <canvas width="400" height="400" id="canvas">
 		        Browser does not support HTML5, cannot load game.
 	        </canvas>
-                 <select id="dropdown">
+            <div id="capture-class" row="row">
+                <select id="dropdown">
+                    <option value="10">10 Seconds</option>
+                    <option value="30" selected="selected">30 Seconds</option>
                     <option value="60">1 Minute</option>
                     <option value="120" selected="selected">2 Minutes</option>
                     <option value="300">5 Minutes</option>
                  </select>
                 <button id="new" class="btn btn-primary" disabled="true">New Picture</button>
-                <button id="capture" class="btn btn-secondary">Capture</button>
+                <button id="capture" class="btn btn-success">Capture</button>
                 <!--<button id="send">Send</button>-->
             </div>
         </div>
