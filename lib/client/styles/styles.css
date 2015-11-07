@@ -63,6 +63,14 @@ body {
     position: absolute;
 }
 
+#brand {
+  font-weight: bold;
+}
+
 .test {
   border: 2px solid black;
+}
+
+#main-content .btn-lrg {
+  /*width: 100px;*/
 }

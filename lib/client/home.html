@@ -28,7 +28,7 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li id="username"><a></a></li>
+                        <li id="username"><a href="#"></a></li>
                         <li><a href="/logout">Logout</a></li>
                     </ul>
                 </div>
@@ -48,16 +48,18 @@
             <canvas width="400" height="400" id="canvas">
 		        Browser does not support HTML5, cannot load game.
 	        </canvas>
-            <p>
-                 <select id="dropdown">
+            <div>
+                <select id="dropdown">
                     <option value="10">10 Seconds</option>
                     <option value="30" selected="selected">30 Seconds</option>
                     <option value="60">1 Minute</option>
-                 </select>
-                <button id="new" class="btn btn-primary" disabled="true">New Picture</button>
-                <button id="capture" class="btn btn-secondary">Capture</button>
+                </select>
+                <div class="btn-group" role="group">
+                    <button id="new" class="btn btn-large btn-primary" disabled="true">New Picture</button>
+                    <button id="capture" class="btn btn-large btn-success">Capture</button>
+                </div>
                 <!--<button id="send">Send</button>-->
-            </p>
+            </div>
         </div>
         <div id="requestPane">
             <h4>Friend Requests</h4>
