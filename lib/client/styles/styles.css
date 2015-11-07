@@ -48,3 +48,7 @@ body {
 .footer-control {
   margin: 3px;
 }
+
+.test {
+  border: 2px solid black;
+}
