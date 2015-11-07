@@ -8,14 +8,10 @@
 #snapFrame {width: 1000px; height: 1000;
             border: 2px solid;}
 
-<<<<<<< HEAD
 #canvas{
     width:0px;
     height:0px;
     display:none;
 }
 
-body {text-align: center}
-=======
 body {text-align: center;}
->>>>>>> 51abc78da4830a08b495800ff839ed723b538a6b
