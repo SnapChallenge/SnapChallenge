@@ -53,3 +53,7 @@ body {
     right: 50px;
     position: absolute;
 }
+
+.test {
+  border: 2px solid black;
+}
