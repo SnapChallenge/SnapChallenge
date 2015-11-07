@@ -11,14 +11,46 @@
         <link rel="icon" href="images/camera33.png">
     </head>
     <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img class="img-responsive banner-logo" src="http://s3.amazonaws.com/filepicker-images-rapgenius/sF89IOJ3Re2m4Qr9Q6qy_PimpedOutGhost_cr_Kelsey_Dake.png"></a>
+                    <a class="navbar-brand" href="/">Snap Challenge</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">My Snaps</a></li>
+                    <li><a href="/logout">Login</a></li>
+                    <li class="active"><a href="signup">Sign Up<span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>
+        </nav>
         <div id="signupPane">
-            <h2>Create account</h2>
+            <!-- <h2>Create account</h2> -->
             <form name="signup" class="form-signin" method="post" action="/signup" accept-charset="utf-8">
-                <h3 class="form-signin-heading">Sign up for Snap Challenge!</h3>
+                <h3 class="form-signin-heading">Create a Snap Challenge account!</h3>
                 <input type="email" name="email" class="form-control" placeholder="Username" required="" autofocus="">
-                <input type="password" name="password" class="form-control " placeholder="Password">
+                <input type="password" name="password" class="form-control" placeholder="Password">
+                <input type="password" name="retype-password" class="form-control" placeholder="Retype password">
                 <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign up">
             </form>
         </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>created with caffeine at the 2015 Hack U State hackathon</p>
+
+                <p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+                </p>
+            </div>
+        </footer>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 </html>
