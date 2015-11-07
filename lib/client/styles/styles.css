@@ -63,6 +63,18 @@ body {
     position: absolute;
 }
 
+#brand {
+  font-weight: bold;
+}
+
 .test {
   border: 2px solid black;
+}
+
+#main-content .btn-lrg {
+  /*width: 100px;*/
+}
+
+#capture-class {
+  margin: 10px 0;
 }

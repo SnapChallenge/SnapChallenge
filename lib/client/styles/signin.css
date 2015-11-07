@@ -52,6 +52,8 @@ body {
 #big-logo {
     max-width: 60%;
     max-height: 60%;
+    display: block;
+    margin: 10px auto;
 }
 
 .nav > li.active > a {
