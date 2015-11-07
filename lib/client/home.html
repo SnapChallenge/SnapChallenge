@@ -38,11 +38,11 @@
         <!-- main body -->
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div id="friendPane" class="sidebar-nav">
                         <div class="well">
                             <h4>Friends</h4>
-                            <ul class="nav friendList">
+                            <ul id="friendList" class="nav friendList">
                                 <li class="friend">Name1<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
                                 <li class="friend">Name2<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
                                 <li class="friend">Name3<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <video id="video" width="400" height="400" autoplay>
                         Browser does not support video, cannot load.
                     </video>
@@ -69,13 +69,16 @@
                         <button id="capture" class="btn btn-success">Capture</button>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div id="requestPane" class="pull-right">
-                        <div class="well">
+                <div class="col-md-4">
+                    <div class="pull-right">
+                        <div id="requestPane" class="well">
                             <h4>Friend Requests</h4>
-                            <ul class="nav friendList">
+                            <ul id="requestList" class="nav friendList">
                                 <li class="friend"><span>name1<button type="button" class="btn btn-default">accept</button><button type="button btn btn-default">view</button></span></li>
+                                <li><input type="text" id="friend-request" placeholder="Add New Friend"></li>
+                                <li><input type="submit" value="Send Request" class="btn btn-info"></li>
                             </ul>
+                            
                         </div>
                     </div>
                 </div> <!-- col md 3 -->
