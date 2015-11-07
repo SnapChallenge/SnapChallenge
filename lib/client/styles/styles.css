@@ -48,3 +48,8 @@ body {
 .footer-control {
   margin: 3px;
 }
+
+#requestPane {
+    right: 50px;
+    position: absolute;
+}
