@@ -17,7 +17,6 @@ User can choose friend to send image to
         Timer set displays (drop down?)
         User clicks "Send" to send it to the user
 
-<<<<<<< HEAD
 Technologies used:
 server: node.js
 camera: html5 camera api
@@ -39,23 +38,3 @@ Snaps:
 
 password: snap123
 
-
-=======
-Technologies:
-    server: node.js (hapi)
-    database: mongodb
-    camera: html5 camera api
-    game: html5 canvas
-    authentication: hapi-auth-cookie
-
-Collections:
-    Users:
-        Email address
-        Password
-        List of friends
-    Snaps:
-        Sender
-        Recipient
-        Duration
-        Image
->>>>>>> 51abc78da4830a08b495800ff839ed723b538a6b
