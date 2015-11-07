@@ -36,6 +36,6 @@ Snaps:
     Time limit
     Image
 
-
+password: snap123
 
 
