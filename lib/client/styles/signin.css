@@ -38,3 +38,12 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+#welcome {
+    padding: 50px;
+}
+
+#big-logo {
+    max-width: 40%;
+    max-height: 40%;
+}
