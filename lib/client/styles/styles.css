@@ -25,6 +25,10 @@ body {
     margin: 0 0 10px;
 }
 
+video{
+    visibility:hidden;
+}
+
 .navbar-brand .banner-logo {
   max-width: 40px;
   margin-top: -11px;
