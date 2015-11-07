@@ -26,7 +26,7 @@
                 </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">My Snaps</a></li>
-                    <li><a href="/logout">Login</a></li>
+                    <li><a href="/login">Login</a></li>
                     <li class="active"><a href="signup">Sign Up<span class="sr-only">(current)</span></a></li>
                 </ul>
             </div>
@@ -36,16 +36,15 @@
             <form name="signup" class="form-signin" method="post" action="/signup" accept-charset="utf-8">
                 <h3 class="form-signin-heading">Create a Snap Challenge account!</h3>
                 <input type="email" name="email" class="form-control" placeholder="Username" required="" autofocus="">
-                <input type="password" name="password" class="form-control" placeholder="Password">
-                <input type="password" name="retype-password" class="form-control" placeholder="Retype password">
+                <input type="password" name="password" class="form-control" placeholder="Password" required="">
+                <input type="password" name="retype-password" class="form-control" placeholder="Retype password" required="">
                 <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign up">
             </form>
         </div>
         <!-- Footer -->
         <footer class="footer">
             <div class="container">
-                <p>created with caffeine at the 2015 Hack U State hackathon</p>
-
+                <p>created with caffeine and perspiration at the 2015 Hack U State hackathon</p>
                 <p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
                 </p>
             </div>

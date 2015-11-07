@@ -3,9 +3,11 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>SnapChallenge</title>
-        <link href="styles/styles.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        <title>SnapChallenge | Login</title>
+        <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+        <link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="styles/bootstrap-theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="styles/signin.css" type="text/css" />
         <link rel="icon" href="images/camera33.png">
         <script src = "scripts/Modernizr.js"></script>
 	    <script src = "scripts/Loader.js"></script>
@@ -21,32 +23,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="home.html">Snap Challenge</a>
+                    <a class="navbar-brand" href="/"><img class="img-responsive banner-logo" src="http://s3.amazonaws.com/filepicker-images-rapgenius/sF89IOJ3Re2m4Qr9Q6qy_PimpedOutGhost_cr_Kelsey_Dake.png"></a>
+                    <a class="navbar-brand" href="/">Snap Challenge</a>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="home.html">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">My Snaps</a></li>
-                        <li><a href="#">Logout</a></li>
-                        <li class="active"><a href="#">Sign Up<span class="sr-only">(current)</span></a></li>
-                    </ul>
-                </div><!--/.nav-collapse -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">My Snaps<span class="sr-only">(current)</span></a></a></li>
+                    <li><a href="/logout">Logout</a></li>
+                    <li><a href="signup">Sign Up</li>
+                </ul>
             </div>
         </nav>
         <div id="userTitle">
@@ -76,5 +60,15 @@
                 <button id="load">Load (BETA)</button>
             </p>
         </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>created with caffeine and perspiration at the 2015 Hack U State hackathon</p>
+                <p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+                </p>
+            </div>
+        </footer>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 </html>
