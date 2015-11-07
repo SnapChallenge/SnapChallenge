@@ -47,3 +47,7 @@ body {
     max-width: 40%;
     max-height: 40%;
 }
+
+.nav > li.active > a {
+    cursor: default;
+}
