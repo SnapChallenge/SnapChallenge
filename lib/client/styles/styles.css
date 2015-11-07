@@ -1,4 +1,4 @@
-#friendPane {position: absolute; top: 80px; left: 5px; width: 200px;
+#friendPane {position: absolute; top: 80px; left: 5px; 
         font-family: Arial, Helvetica, sans-serif}
 
 #container {position: absolute; top: 80px; left: 210px;
@@ -78,3 +78,16 @@ body {
 #capture-class {
   margin: 10px 0;
 }
+
+.friend {
+  list-style-type: none;
+}
+
+.friend button {
+  margin: 5px;
+}
+
+.pull-right {
+  float: right !important;
+}
+

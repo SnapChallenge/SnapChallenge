@@ -34,8 +34,64 @@
                 </div>
             </div>
         </nav>
-        <div id="friendPane" class="nav nav-sidebar">
+
+        <!-- main body -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="friendPane" class="sidebar-nav">
+                        <div class="well">
+                            <h4>Friends</h4>
+                            <ul class="nav friendList">
+                                <li class="friend">Name1<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
+                                <li class="friend">Name2<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
+                                <li class="friend">Name3<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <video id="video" width="400" height="400" autoplay>
+                        Browser does not support video, cannot load.
+                    </video>
+                    <canvas width="400" height="400" id="canvas">
+                        Browser does not support HTML5, cannot load game.
+                    </canvas>
+                    <div id="capture-class" row="row">
+                        <select id="dropdown">
+                            <option value="10">10 Seconds</option>
+                            <option value="30" selected="selected">30 Seconds</option>
+                            <option value="60">1 Minute</option>
+                            <option value="120" selected="selected">2 Minutes</option>
+                            <option value="300">5 Minutes</option>
+                         </select>
+                        <button id="new" class="btn btn-primary" disabled="true">New Picture</button>
+                        <button id="capture" class="btn btn-success">Capture</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="requestPane" class="pull-right">
+                        <div class="well">
+                            <h4>Friend Requests</h4>
+                            <ul class="nav friendList">
+                                <li class="friend"><span>name1<button type="button" class="btn btn-default">accept</button><button type="button btn btn-default">view</button></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- col md 3 -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+
+
+<!--         <div id="friendPane" class="nav nav-sidebar test">
             <h4>Friends</h4>
+            <ul class="friendList">
+                <li class="friend">Name1<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
+                <li class="friend">Name2<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
+                <li class="friend">Name3<button type="button" class="btn btn-default">view</button><button type="button" class="btn btn-default">send</button></li>
+            </ul>
+            <span>Name2<button type="button">view</button><button type="button">send</button></span>
+            <span>Name3<button type="button">view</button><button type="button">send</button></span>
         </div>
         <div id="container" class="container">
             <video id="video" width="400" height="400" autoplay>
@@ -54,12 +110,16 @@
                  </select>
                 <button id="new" class="btn btn-primary" disabled="true">New Picture</button>
                 <button id="capture" class="btn btn-success">Capture</button>
-                <!--<button id="send">Send</button>-->
+                <!<button id="send">Send</button>--
             </div>
         </div>
-        <div id="requestPane">
+        <div id="requestPane" class="pull-right">
             <h4>Friend Requests</h4>
-        </div>
+            <ul>
+                <li><span>name1<button type="button">accept</button><button type="button">view</button></span></li>
+            </ul>
+            <span>Name2<button type="button">decline</button><button type="button">view</button></span>
+        </div> -->
         <!-- Footer -->
         <footer class="footer">
             <div class="container">
