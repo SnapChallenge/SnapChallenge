@@ -2,6 +2,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #eee;
+  max-height: 98%;
 }
 
 .form-signin {
@@ -40,13 +41,17 @@ body {
   border-top-right-radius: 0;
 }
 
+#main-content {
+    height: 100%
+}
+
 #welcome {
     padding: 50px;
 }
 
 #big-logo {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 60%;
+    max-height: 60%;
 }
 
 .nav > li.active > a {
