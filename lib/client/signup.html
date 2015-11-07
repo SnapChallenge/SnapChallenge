@@ -3,17 +3,21 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>SnapChallenge</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <title>SnapChallenge | Sign up</title>
+        <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="styles/bootstrap-theme.min.css" type="text/css" />
+        <link rel="stylesheet" href="styles/signin.css" type="text/css" />
+        <link rel="icon" href="images/camera33.png">
     </head>
     <body>
         <div id="signupPane">
             <h2>Create account</h2>
-            <form name="signup" method="post" action="/signup" accept-charset="utf-8">
-                <input type="email" name="email" class="form-control" placeholder="Email" autofocus="">
-                <input type="password" name="password" placeholder="Password">
-                <input type="submit" value="Sign Up">
+            <form name="signup" class="form-signin" method="post" action="/signup" accept-charset="utf-8">
+                <h3 class="form-signin-heading">Sign up for Snap Challenge!</h3>
+                <input type="email" name="email" class="form-control" placeholder="Username" required="" autofocus="">
+                <input type="password" name="password" class="form-control " placeholder="Password">
+                <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign up">
             </form>
         </div>
     </body>
