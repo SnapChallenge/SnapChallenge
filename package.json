@@ -3,6 +3,9 @@
   "description": "picture messaging with a twist",
   "version": "0.1.0",
   "main": "lib/server",
+  "scripts": {
+      "start": "forever -ac node ."
+  },
   "contributors": [
     "Jacob Butterfield (https://github.com/butterfieldj)",
     "Shaheen Page (https://github.com/shaheenp)",
