@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="styles/styles.css" type="text/css" />
         <link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="styles/bootstrap-theme.min.css" type="text/css" />
-        <link rel="stylesheet" href="styles/signin.css" type="text/css" />
+        <!-- <link rel="stylesheet" href="styles/signin.css" type="text/css" /> -->
         <link rel="icon" href="images/shuffled_ghost.png">
         <script src = "scripts/Modernizr.js"></script>
 	    <script src = "scripts/Loader.js"></script>
     </head>
     <body>
         <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default" >
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,7 +38,7 @@
         <!-- main body -->
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xs-12 col-md-3">
                     <div id="friendPane" class="sidebar-nav">
                         <div class="well">
                             <h4>Friends</h4>
@@ -46,14 +46,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-xs-12 col-md-5">
                     <video id="video" width="400" height="400" autoplay>
                         Browser does not support video, cannot load.
                     </video>
-                    <canvas width="400" height="400" id="canvas">
+                    <canvas id="canvas" width="400" height="400">
                         Browser does not support HTML5, cannot load game.
                     </canvas>
-                    <div id="capture-class" row="row">
+                    <div id="capture-class" class="row capture-row">
                         <select id="dropdown">
                             <option value="10">10 Seconds</option>
                             <option value="30" selected="selected">30 Seconds</option>
@@ -63,27 +63,29 @@
                          </select>
                         <button id="new" class="btn btn-primary" disabled="true">New Picture</button>
                         <button id="capture" class="btn btn-success">Capture</button>
-                        <input type="text" name="imageText" id="imgText" placeholder="Add text">
-                        <button id="textBtn" class="btn btn-primary" disabled="true">Add text</button>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="pull-right">
-                        <div id="requestPane" class="well">
-                            <h4>Friend Requests</h4>
-                            <input id="friend-request-field" type="text" placeholder="Add New Friend">
-                            <input id="friend-request-submit" type="submit" value="Send Request" class="btn btn-info">
-                            <ul id="requestList" class="nav friendList"></ul>
+                        <div class="row capture-row">
+                            <div class="col-xs-12">
+                                <input type="text" name="imageText" id="imgText" placeholder="Add text">
+                                <button id="textBtn" class="btn btn-primary" disabled="true">Add text</button>
+                            </div>
                         </div>
                     </div>
-                </div> <!-- col md 3 -->
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div id="requestPane" class="well">
+                        <h4>Friend Requests</h4>
+                        <input id="friend-request-field" type="text" placeholder="Add New Friend">
+                        <input id="friend-request-submit" type="submit" value="Send Request" class="btn btn-info">
+                        <ul id="requestList" class="nav friendList"></ul>
+                    </div>
+                </div> <!-- col md 4 -->
             </div> <!-- row -->
         </div> <!-- container -->
 
         <!-- Footer -->
         <footer class="footer">
             <div class="container">
-                <p>Created with caffeine and perspiration at HackUState 2015.</p>
+                <p class="text-muted">Created with caffeine and perspiration at HackUState 2015.</p>
             </div>
         </footer>
     </body>

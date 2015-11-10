@@ -40,22 +40,3 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
-
-#main-content {
-    height: 100%
-}
-
-#welcome {
-    padding: 50px;
-}
-
-#big-logo {
-    max-width: 60%;
-    max-height: 60%;
-    display: block;
-    margin: 10px auto;
-}
-
-.nav > li.active > a {
-    cursor: default;
-}
