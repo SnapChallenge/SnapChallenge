@@ -24,6 +24,6 @@
     "hapi-auth-cookie": "^3.1.0",
     "inert": "^3.2.0",
     "joi": "^7.0.0",
-    "mongodb": "^2.0.47"
+    "mongodb": "^3.6.2"
   }
 }
